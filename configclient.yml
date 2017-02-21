@@ -1,6 +1,8 @@
 configuration:  
-  projectName: configclient
+  projectName: configserver
 server:  
   port: 8000
+profiles:
+  env:dev
 message:  
   greeting: Hello from the configuration
